@@ -1,0 +1,746 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+
+
+<style>
+
+
+.parallax-bg {
+	background-image: url("Image/topimage.jpg");
+	height: 959px;
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax-bg1 {
+	background-image: url("Image/training-828715_960_720.jpg");
+	height: 959px;
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax-bg2 {
+	background-image: url("Image/arm-exercises.jpg");
+	height: 959px;
+	background-attachment: fixed;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax-bg3 {
+	background-image: url("Image/Mega_Lightning.jpg");
+	height: 683px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+</style>
+
+<style>
+
+.mySlides {
+	display: none;
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+
+
+
+<title>NFE.com</title>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/open-sans:n3,n4,n6:default;orbitron:n3:default.js" type="text/javascript"></script>
+</head>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+
+<script>
+function init() {
+  window.addEventListener('scroll', function(e){
+    var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+        shrinkOn = 200,
+        header = document.querySelector("header");
+    if (distanceY > shrinkOn) {
+      header.setAttribute("class","smaller");
+    } else {
+        header.removeAttribute("class");
+    }
+  });
+}
+window.onload = init();
+</script>
+
+<body>
+ <header>
+        <div id="logo"></div>
+        <div id="navigation">
+          <nav>
+            <a href="#bacon">HOME</a>
+            <a href="#sausage">HEALTH & WELLNESS</a>
+            <a href="#biltong">PRODUCTS</a>
+            <a href="#biltong">SHOPS</a>
+            <a href="#biltong">ABOUT</a>
+            <a href="#biltong">CONTACT</a>
+            <a href="#biltong">LOCATIONS</a>
+            <a href="#biltong"><img class="search" src="Image/LogoMakr.png" width="26" height="26" alt=""/></a>
+          </nav>
+         </div>
+      </div>
+  </header>
+  
+<div class="parallax-bg parallax-bg1 parallax-bg2" style="mix-width:100%;">
+               <div class="parallax-bg mySlides" style="mix-width:100%">
+                     <div id="title" class="w3-container w3-center w3-animate-right">
+                        <img src="Image/title.png" width="400" height="293" alt=""/> 
+                        <p class="titlep">Our products are for any and everyone<br /> 
+                           who is looking to improve their overall<br /> 
+                           health, fitness, and athletic performance.</p>
+                           
+                           <br />
+                           <a href="https://www.facebook.com/NoFreakinExcuses/?fref=nf"><img src="Image/2/f.jpg" width="59" height="60" alt=""/></a> 
+                             <img src="Image/2/t.jpg" width="59" height="60" alt=""/>
+                             <img src="Image/2/g.jpg" width="59" height="60" alt=""/>
+                             <img src="Image/2/in.jpg" width="59" height="60" alt=""/>
+                     </div>
+               </div>
+               <div class="parallax-bg1 mySlides" style="mix-width:100%">
+                     <div id="title" class="w3-container w3-center w3-animate-right">
+                        <img src="Image/title.png" width="307" height="233" alt=""/>
+                       <p class="titlep">Our products are for any and everyone<br /> 
+                           who is looking to improve their overall<br /> 
+                           health, fitness, and athletic performance.</p> 
+                           
+                           <a href="https://www.facebook.com/NoFreakinExcuses/?fref=nf"><img src="Image/2/f.jpg" width="51" height="55" alt=""/></a>
+                              <img src="Image/2/t.jpg" width="51" height="55" alt=""/>
+                              <img src="Image/2/g.jpg" width="51" height="46" alt=""/>
+                              <img src="Image/2/in.jpg" width="51" height="55" alt=""/>
+                     </div>
+  </div>
+               <div class="parallax-bg2 mySlides" style="mix-width:100%">
+                     <div id="title" class="w3-container w3-center w3-animate-right">
+                        <img src="Image/title.png" width="307" height="233" alt=""/>
+                        <p class="titlep">Our products are for any and everyone<br /> 
+                           who is looking to improve their overall<br /> 
+                           health, fitness, and athletic performance.</p> 
+                           
+                           <a href="https://www.facebook.com/NoFreakinExcuses/?fref=nf"><img src="Image/2/f.jpg" width="51" height="55" alt=""/></a>
+                              <img src="Image/2/t.jpg" width="51" height="55" alt=""/>
+                              <img src="Image/2/g.jpg" width="51" height="46" alt=""/>
+                              <img src="Image/2/in.jpg" width="51" height="55" alt=""/>
+                 </div>
+  </div>
+               
+  <div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:20%; padding-bottom:60px; padding-left:100px;" >
+                      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+
+<div id="subnav">
+  <ul class="nav nav-pills">
+    <li><a data-toggle="pill" href="#menu1">ALL PRODUCTS</a></li>
+    <li><a data-toggle="pill" href="#menu2">PROTEIN</a></li>
+    <li><a data-toggle="pill" href="#menu3">VITAMINS & MINERALS</a></li>
+    <li><a data-toggle="pill" href="#menu4">PRE-WORKOUT</a></li>
+    
+    <li><a data-toggle="pill" href="#menu5">FAT BURNER</a></li>
+    <li><a data-toggle="pill" href="#menu6">T-SHIRTS</a></li>
+    <li><a data-toggle="pill" href="#menu7">TANKS</a></li>
+    <li><a data-toggle="pill" href="#menu8">SHORTS</a></li>
+  </ul>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+<div id="main">
+
+
+
+  
+<div class="tab-content">
+
+
+
+<div id="menu1" class="tab-pane fade in active"> <!--------- mune 1 ---------->
+
+<div class="container">
+    <div class="col-md-12">
+        <div class="carousel slide" id="myCarousel">
+          <div class="carousel-inner">
+              <div class="item active">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="Image/pure whey isolate.jpg" width="151" height="264" alt=""/></a>
+                  <div id="vanila4">
+                     <p>NFE WHEY VANILLA (In Store) </p>
+                     <p class="threefive1">$35.00 </p>
+                  </div>
+                  <div id="purchasebutton5">
+                     <a href="https://squareup.com/store/nfe/item/nfe-whey-vanilla">
+                     <button class="button button1">Purchase</button>
+                    </a>                  </div>
+                </div>
+              </div>
+                
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="Image/yellow and red t-shirt.jpeg" width="270" height="264" alt=""/></a>
+                  <div id="vanila4">
+                    <p>NFE WHEY VANILLA (In Store) </p>
+                    <p class="threefive1">$20.00 </p>
+                  </div>
+                  <div id="purchasebutton6">
+                        <button class="button button1">Purchase</button>
+                  </div>
+                  </div>
+                </div>
+                
+
+              <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="Image/T-SHIRTS/Ca3EXGwWEAAx4Td.jpg" width="270" height="264" alt=""/></a>
+                  <div id="vanila4">
+                      <p>NATURAL FULE ENERGY (In Store) </p>
+                      <p class="threefive1">$35.00 </p>
+                  </div>
+                  <div id="purchasebutton5">
+                      <button class="button button1">Purchase</button>
+                  </div>
+                  </div>
+              </div>
+                
+                
+                
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="Image/red and black shorts.jpg" width="270" height="264" alt=""/></a>
+                  <div id="vanila4">
+                      <p>NFE WHEY VANILLA (In Store) </p>
+                      <p class="threefive1">$20.00 </p>
+                  </div>
+                  <div id="purchasebutton6">
+                      <button class="button button1">Purchase</button>
+                  </div>
+                  </div>
+                </div>
+                
+                
+                
+                
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="Image/T-SHIRTS/Ca3EOtaW4AA_EEG.jpg" width="270" height="264" alt=""/></a>
+                  <div id="vanila4">
+                      <p>BOOST ANERGY (In Store) </p>
+                      <p class="threefive1">$35.00 </p>
+                  </div>
+                  <div id="purchasebutton5">
+                      <button class="button button1">Purchase</button>
+                  </div>
+                  </div>
+                </div>
+                
+                
+                
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="Image/T-SHIRTS/Black.JPG" width="255" height="264" alt=""/></a>
+                  <div id="vanila4">
+                      <p>T-Shirt-Silk Screen-Black (In Store) </p>
+                      <p class="threefive1">$20.00 </p>
+                  </div>
+                  <div id="purchasebutton5">
+                      <button class="button button1">Purchase</button>
+                  </div>
+                  </div>
+                </div>
+                
+                
+                
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="Image/T-SHIRTS/Orange.JPG" width="255" height="264" alt=""/></a>
+                  <div id="vanila4">
+                      <p>T-Shirt-Silk Screen-Red (In Store) </p>
+                      <p class="threefive1">$20.00 </p>
+                  </div>
+                  <div id="purchasebutton5">
+                      <button class="button button1">Purchase</button>
+                  </div>
+                  </div>
+                </div>
+                
+                
+                <div class="item">
+                  <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
+                  <a href="#"><img src="Image/T-SHIRTS/VTA.JPG " width="270" height="264" alt=""/></a>
+                  <div id="vanila4">
+                      <p>VITA (In Store) </p>
+                      <p class="threefive1">$30.00 </p>
+                  </div>
+                  <div id="purchasebutton7">
+                      <button class="button button1">Purchase</button>
+                  </div>
+                  </div>
+                </div>
+          </div>
+          
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+          
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+
+<script>
+$('#myCarousel').carousel({
+  interval: 40000
+});
+
+$('.carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+
+  if (next.next().length>0) {
+ 
+      next.next().children(':first-child').clone().appendTo($(this)).addClass('rightest');
+      
+  }
+  else {
+      $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+     
+  }
+});
+</script>
+
+
+
+
+
+
+
+<div id="menu2" class="tab-pane fade"> <!--------- mune 2 ---------->
+
+      <div id="item1"><!--------- item 1 ---------->
+                 <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/pure whey isolate.jpg" width="151" height="264" alt=""/>
+                 </div>
+                 <div id="vanila4">
+                      <p>WHEY VANILLA (In Store) </p>
+                      <p class="threefive1">$35.00 </p>
+        </div>
+                  <div id="purchasebutton7">
+                      <a href="https://squareup.com/store/nfe/item/nfe-whey-vanilla">
+                      <button class="button button1">Purchase</button>
+                  </a>                  </div>
+      </div>
+      
+      <div id="item2"><!--------- item 2 ---------->
+                  <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/pure whey isolate.jpg" width="151" height="264" alt=""/>
+                  </div>
+                  <div id="vanila4">
+                      <p>WHEY CHOCOLATE (In Store) </p>
+                      <p class="threefive1">$35.00 </p>
+                  </div>
+                  <div id="purchasebutton7">
+                      <a href="https://squareup.com/store/nfe/item/nfe-whey-chocolate">
+                      <button class="button button1">Purchase</button>
+                  </a>                  </div>
+      </div>
+      
+      <div id="item3"><!--------- item 3 ---------->
+                  <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/product/Protein/Ca3EsccUAAEeL9c.jpg" width="151" height="264" alt=""/>
+                  </div>
+                  <div id="vanila4">
+                      <p>WHEY ISOLATE (In Store) </p>
+                      <p class="threefive1">$35.00 </p>
+                  </div>
+                  <div id="purchasebutton7">
+                      <button class="button button1">Purchase</button>
+                  </div>
+      </div>
+      
+      <div id="item4"><!--------- item 4 ---------->
+                  <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/product/Protein/Ca3EOtaW4AA_EEG.jpg" width="280" height="264" alt=""/>
+                  </div>
+                  <div id="vanila4">
+                      <p>BOOST ENERGY (In Store) </p>
+                      <p class="threefive1">$35.00 </p>
+                  </div>
+                  <div id="purchasebutton7">
+                      <button class="button button1">Purchase</button>
+                  </div>
+      </div>
+
+</div>
+
+<div id="menu3" class="tab-pane fade"> <!--------- mune 3 ---------->
+
+      <div id="item1"><!--------- item 1 ---------->
+                 <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/product/vita/Ca3EXGwWEAAx4Td.jpg" width="280" height="264" alt=""/>
+                 </div>
+                 <div id="vanila4">
+                      <p>WHEY VANILLA (In Store) </p>
+                      <p class="threefive1">$35.00 </p>
+        </div>
+                  <div id="purchasebutton7">
+                      <button class="button button1">Purchase</button>
+                  </div>
+      </div>
+      
+      <div id="item2"><!--------- item 2 ---------->
+                  <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/product/vita/vita multivitamin.jpg" width="165" height="264" alt=""/>
+                  </div>
+                  <div id="vanila4">
+                      <p>WHEY CHOCOLATE (In Store) </p>
+                      <p class="threefive1">$35.00 </p>
+                  </div>
+                  <div id="purchasebutton7">
+                      <button class="button button1">Purchase</button>
+                  </div>
+      </div>
+</div>
+
+<div id="menu4" class="tab-pane fade"> <!--------- mune 4 ---------->
+      <div id="item2"><!--------- item 2 ---------->
+                  <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/product/PRE-WORKOUT/bolt.jpg" width="165" height="264" alt=""/>
+                  </div>
+                  <div id="vanila4">
+                      <p>NFE BOLD (In Store) </p>
+                      <p class="threefive1">$30.00 </p>
+                  </div>
+                  <div id="purchasebutton7">
+                      <button class="button button1">Purchase</button>
+                  </div>
+      </div>
+</div>
+    
+<div id="menu5" class="tab-pane fade"> <!--------- mune 5 ---------->
+      <div id="item2"><!--------- item 2 ---------->
+                  <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/product/FAT BURNER/trim.jpg" width="165" height="264" alt=""/>
+                  </div>
+                  <div id="vanila4">
+                      <p>NFE TRIM (In Store) </p>
+                      <p class="threefive1">$30.00 </p>
+                  </div>
+                  <div id="purchasebutton7">
+                      <button class="button button1">Purchase</button>
+                  </div>
+      </div>
+</div>
+
+<div id="menu6" class="tab-pane fade"> <!--------- mune 6 ---------->
+      <div id="item1"><!--------- item 1 ---------->
+                 <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/product/T-Shirt/red.JPG" width="240" height="264" alt=""/>
+                 </div>
+                 <div id="vanila4">
+                      <p>Silk Screen-Red (In Store) </p>
+                      <p class="threefive1">$20.00 </p>
+        </div>
+                  <div id="purchasebutton7">
+                      <button class="button button1">Purchase</button>
+                  </div>
+      </div>
+      
+      <div id="item2"><!--------- item 2 ---------->
+                  <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/product/T-Shirt/black.JPG" width="240" height="264" alt=""/>
+                  </div>
+                  <div id="vanila4">
+                      <p>Silk Screen-Black (In Store) </p>
+                      <p class="threefive1">$20.00 </p>
+                  </div>
+                  <div id="purchasebutton7">
+                      <button class="button button1">Purchase</button>
+                  </div>
+      </div>
+      
+      <div id="item3"><!--------- item 3 ---------->
+                  <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/product/T-Shirt/Grey.JPG" width="240" height="264" alt=""/>
+                  </div>
+                  <div id="vanila4">
+                      <p>Silk Screen-Grey (In Store) </p>
+                      <p class="threefive1">$20.00 </p>
+                  </div>
+                  <div id="purchasebutton7">
+                      <button class="button button1">Purchase</button>
+                  </div>
+      </div>
+      
+      <div id="item4"><!--------- item 4 ---------->
+                  <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/product/T-Shirt/pink.JPG" width="240" height="264" alt=""/>
+                  </div>
+                  <div id="vanila4">
+                      <p>Silk Screen-Pink (In Store) </p>
+                      <p class="threefive1">$20.00 </p>
+                  </div>
+                  <div id="purchasebutton7">
+                      <button class="button button1">Purchase</button>
+                  </div>
+      </div>
+</div>
+        
+<div id="menu7" class="tab-pane fade"> <!--------- mune 7 ---------->
+      <div id="item1"><!--------- item 1 ---------->
+                 <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/product/TANKS/red and black tshirt.jpeg" width="220" height="224" alt=""/>
+                 </div>
+                 <div id="vanila4">
+                      <p>RED TANKS (In Store) </p>
+                      <p class="threefive1">$20.00 </p>
+        </div>
+                  <div id="purchasebutton7">
+                      <button class="button button1">Purchase</button>
+                  </div>
+      </div>
+      
+      <div id="item2"><!--------- item 2 ---------->
+                  <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/product/TANKS/yellow and red t-shirt.jpeg" width="220" height="224" alt=""/>
+                  </div>
+                  <div id="vanila4">
+                      <p>YELLOW TANKS (In Store) </p>
+                      <p class="threefive1">$20.00 </p>
+                  </div>
+                  <div id="purchasebutton7">
+                      <button class="button button1">Purchase</button>
+                  </div>
+      </div>
+</div>
+
+
+
+<div id="menu8" class="tab-pane fade"> <!--------- mune 8 ---------->
+      <div id="item2"><!--------- item 2 ---------->
+                  <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/product/SHORTS/black and yellow shorts.jpg" width="220" height="224" alt=""/>
+                  </div>
+                  <div id="vanila4">
+                      <p>YELLOW SHORTS (In Store) </p>
+                      <p class="threefive1">$20.00 </p>
+                  </div>
+                  <div id="purchasebutton7">
+                      <button class="button button1">Purchase</button>
+                  </div>
+      </div>
+            <div id="item2"><!--------- item 2 ---------->
+                  <div id="photo1"><!--------- photo 1 ---------->
+                      <img src="Image/product/SHORTS/red and black shorts.jpg" width="220" height="224" alt=""/>
+                  </div>
+                  <div id="vanila4">
+                      <p>RED SHORTS (In Store) </p>
+                      <p class="threefive1">$20.00 </p>
+                  </div>
+                  <div id="purchasebutton7">
+                      <button class="button button1">Purchase</button>
+                  </div>
+      </div>
+</div>
+</div>
+
+
+
+
+
+
+<div id="visitbutton">
+     <button class="button button2">VISIT OUR ONLINE STORE</button>
+</div>
+
+
+<div id="vediocontainer">
+<div id="vedio">
+
+<div id="vedioright">         
+<iframe width="570" height="430" src="https://www.youtube.com/embed/OY_Mf5_vCcw" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div id="vedioleft">
+          <img src="Image/vediotitle.png" width="474" height="77" alt=""/>
+          
+          <br /><br />
+
+          <div id="p1">There may be people that have more talent than 
+          you, but there’s no freakin excuse for anyone to 
+          work harder than you do. Persistence can change 
+          failure into extraordinary achievement. but in the 
+          event we fail, realize that something constructive 
+          can come from every defeat. And make sure your 
+          worst enemy doesn’t live between your own two 
+          ears. <br />NFE LIVE IT ! ! ! ! ! !
+          </div>
+         
+          <br />
+          
+          <button class="button button3">Learn More</button>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="parallax-bg3">
+
+  <img src="Image/Untitled-1.png" width="1008" height="353" alt=""/> 
+  <br /><br />
+  
+  <div class="pp">
+  NFE a.k.a., "No Freakin' Excuses" is a lifestyle brand that sells the highest quality natural supplements <br />
+  and apparel taken and worn by many of our sponsored athletes from NFL Free Agents, Bodybuilding Champions, <br />
+  Power Lifting athletes, Crossfit competitors, and MMA fighters.
+  
+  <br /><br /><br /><br />
+  <div id="ourevent">
+    <img src="Image/bar 4.png" width="497" height="100" alt=""/> </div>
+  </div>
+  
+  
+  
+<div id="eventpic">
+  <div class="gallery cf">
+  <div>
+    <img src="Image/events/12079049_1202449946483126_1312091175381725484_n.jpg" width="342" height="378" alt=""/> 
+  </div>
+  <div>
+    <img src="Image/events/12803145_1142904445771010_4861256754186215850_n.jpg" width="960" height="378" alt=""/> 
+  </div>
+  <div>
+    <img src="Image/events/13151455_1193234790737975_2053097991156232512_n.jpg" width="960" height="378" alt=""/>
+  </div>
+  <div>
+    <img src="Image/events/NFE at Powerhouse!! February 20.jpg" width="960" height="378" alt=""/>
+  </div>
+ </div>
+</div>
+
+
+<div id="form">
+        <div id="formtitle">
+            <img src="Image/nofreakingexcuess.png" width="1047" height="109" alt=""/> 
+        </div>
+        <input type="name" name="name" placeholder="Name">
+        <input type="emailaddress"  name="emailaddress" placeholder="Email Address">
+        <button class="button button4">SUBMIT</button>
+</div>
+
+<div id="connectwithuscontainer">
+   <div id="connectwithus">
+        <div id="titleconnect">
+            <img src="Image/connectwithus.png" width="552" height="65" alt=""/> 
+        </div>
+        <div id="socialconnect"> 
+          <a href="https://www.facebook.com/NoFreakinExcuses/?fref=ts"><img src="Image/2/f.jpg" width="78" height="78" alt=""/></a> 
+          <img src="Image/2/t.jpg" width="78" height="78" alt=""/> 
+          <img src="Image/2/g.jpg" width="78" height="78" alt=""/> 
+          <img src="Image/2/y.jpg" width="78" height="78" alt=""/>
+          <img src="Image/2/p.jpg" width="78" height="78" alt=""/> 
+          <img src="Image/2/in.jpg" width="78" height="78" alt=""/> 
+        </div>
+   </div>
+</div>
+
+
+
+
+<footer>
+	<div class="wrapper">
+		<div id="footer-links">
+			<ul>
+				<li><h4>OUR COMPANY</h4></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Our Team</a></li>
+				<li><a href="#">success Stories</a></li>
+				<li><a href="#">New & Events</a></li>
+                <li><a href="#">Policies</a></li>
+                <li><a href="#">Sitemap</a></li>
+			</ul>
+			<ul>
+				<li><h4>PRODUCTS</h4></li>
+				<li><a href="#">Protein</a></li>
+				<li><a href="#">Vitamins & Minerals</a></li>
+				<li><a href="#">Fat Burner</a></li>
+				<li><a href="#">Pre-workout</a></li>
+                <li><a href="#">T-Shirts & Tanks</a></li>
+				<li><a href="#">Shorts & Leggings</a></li>
+				<li><a href="#">Shop Now</a></li>
+			</ul>
+			<ul>
+				<li><h4>CONTENT & RESOURCES</h4></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">Email List</a></li>
+				<li><a href="#">Links</a></li>
+			</ul>
+		</div>
+        <div id="footerlogo">
+            <img src="Image/logo_big.png" width="240" height="155" alt=""/> 
+        </div>
+	</div>
+</footer>
+
+</div>
+</body>
+</html>
